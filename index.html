@@ -4,114 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kenneth Wayne Douglas | Sober Agentic Infrastructure</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background-color: #f4f4f9; padding-bottom: 50px; }
-        header { background-color: #ffffff; border-bottom: 3px solid #0056b3; padding: 40px 20px; margin-bottom: 30px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
-        h1 { color: #0056b3; font-weight: 700; margin-bottom: 10px; }
-        .subtitle { font-size: 1.2rem; font-style: italic; color: #666; }
-        .section-container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
-        .custom-section { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 30px; }
-        h2 { color: #0056b3; font-weight: 600; border-bottom: 2px solid #f0f0f0; padding-bottom: 15px; margin-bottom: 25px; }
-        .card { transition: transform 0.2s; border: 1px solid #eef0f2; }
-        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important; }
-        footer { text-align: center; margin-top: 50px; font-size: 0.9em; color: #888; }
-        .parchment-card { background-color: #FCF5E5 !important; border-left: 6px solid #B8860B !important; }
+        /* CORE STYLES - No external dependencies */
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #1a1a1a; background-color: #f8f9fa; margin: 0; padding: 0; }
+        header { background: #ffffff; border-bottom: 4px solid #0056b3; padding: 60px 20px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        h1 { color: #0056b3; font-size: 2.5rem; margin: 0; }
+        .subtitle { font-size: 1.2rem; color: #666; font-style: italic; margin-top: 10px; }
+        .container { max-width: 850px; margin: 40px auto; padding: 0 20px; }
+        .section { background: white; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        h2 { color: #0056b3; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 0; }
+        
+        /* GRID FOR CARDS */
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+        
+        .card { border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #fff; }
+        .card-title { font-weight: bold; font-size: 1.1rem; margin-bottom: 5px; color: #0056b3; }
+        .card-sub { font-size: 0.85rem; color: #6a737d; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .card-text { font-size: 0.95rem; color: #444; margin: 0; }
+
+        /* THE "SOBER" PATENT HIGHLIGHT */
+        .parchment { background-color: #FCF5E5; border-left: 8px solid #B8860B; }
+        
+        .img-fluid { max-width: 100%; height: auto; border-radius: 10px; margin-top: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        footer { text-align: center; padding: 40px; color: #888; font-size: 0.9rem; }
     </style>
 </head>
 <body>
 
     <header>
         <h1>Kenneth Wayne Douglas</h1>
-        <p class="subtitle">Founder & CEO, Sober Agentic Infrastructure, Inc. | Systems Architect</p>
+        <p class="subtitle">Founder & CEO, Sober Agentic Infrastructure, Inc.</p>
     </header>
 
-    <div class="section-container">
+    <div class="container">
 
-        <div class="custom-section text-center">
+        <div class="section" style="text-align: center;">
             <h2>📇 Connect With Me</h2>
-            <p>Save my business card to keep my contact info handy.</p>
-            <img src="biz card back.png" alt="Kenneth Wayne Douglas Business Card" style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 8px 20px rgba(0,0,0,0.15);">
+            <p>Direct systems architecture and verifiable AI consultation.</p>
+            <img src="biz card back.png" alt="Business Card" class="img-fluid">
         </div>
-        
-        <div class="custom-section">
-            <h2 class="text-primary">⚙️ Foundational Agentic Architectures</h2>
-            <p class="text-muted mb-4">Demonstrating the power of Verifiable Planning. These architectures highlight how Sober Agents apply deterministic, neuro-symbolic guardrails to prevent catastrophic AI failures in high-stakes environments.</p>
 
-            <div class="row g-4">
-                <div class="col-md-6">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">💬 AI Chat Engines</h5>
-                            <h6 class="card-subtitle mb-2 text-muted small">Deterministic Policy Enforcement</h6>
-                            <p class="card-text small">Prevents LLMs from hallucinating refunds or leaking PII. A verifiable semantic router mathematically proves responses align with hard-coded company policies before transmission.</p>
-                        </div>
-                    </div>
+        <div class="section">
+            <h2>⚙️ Foundational Agentic Architectures</h2>
+            <p style="color: #666;">Demonstrating the power of Verifiable Planning and neuro-symbolic guardrails.</p>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-title">💬 AI Chat Engines</div>
+                    <div class="card-sub">Deterministic Policy Enforcement</div>
+                    <p class="card-text">Prevents LLMs from hallucinating refunds or leaking PII via verifiable semantic routing.</p>
                 </div>
-
-                <div class="col-md-6">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">🏥 Medicine</h5>
-                            <h6 class="card-subtitle mb-2 text-muted small">Dosage & Contraindication</h6>
-                            <p class="card-text small">The "Default Deny" medical bridge. AI treatment plans are passed through a formal logic solver to cross-reference patient EHRs against FDA databases to prevent harmful interactions.</p>
-                        </div>
-                    </div>
+                <div class="card">
+                    <div class="card-title">🏥 Medicine</div>
+                    <div class="card-sub">Dosage & Contraindication</div>
+                    <p class="card-text">Cross-references AI plans against FDA databases using formal logic to prevent harmful interactions.</p>
                 </div>
-
-                <div class="col-md-6">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">🏭 Manufacturing</h5>
-                            <h6 class="card-subtitle mb-2 text-muted small">Physical & Financial Bounding</h6>
-                            <p class="card-text small">Governs IIoT and supply chain agents. The Verifier proves that a newly generated production schedule will not exceed strict physical machine tolerances or strict daily procurement budgets.</p>
-                        </div>
-                    </div>
+                <div class="card">
+                    <div class="card-title">🏭 Manufacturing</div>
+                    <div class="card-sub">Physical & Financial Bounding</div>
+                    <p class="card-text">Ensures production schedules never exceed machine tolerances or strict procurement budgets.</p>
                 </div>
-
-                <div class="col-md-6">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">🛡️ Defense (DoD)</h5>
-                            <h6 class="card-subtitle mb-2 text-muted small">Cryptographic ROE</h6>
-                            <p class="card-text small">A Z3 Theorem Prover integration for military applications. Autonomous actions are only executed if the engine can generate a cryptographic proof of compliance with mission-specific Rules of Engagement.</p>
-                        </div>
-                    </div>
+                <div class="card">
+                    <div class="card-title">🛡️ Defense (DoD)</div>
+                    <div class="card-sub">Cryptographic ROE</div>
+                    <p class="card-text">Verification of mission-specific Rules of Engagement via Z3 Theorem Proving integration.</p>
                 </div>
             </div>
         </div>
 
-        <div class="custom-section">
-            <h2 class="text-primary">💡 Intellectual Property & Research</h2>
-            <p class="text-muted mb-4">Exploring the intersection of high-concept physics, verifiable systems, and real-world innovation.</p>
-
-            <div class="card shadow-sm mb-4 parchment-card">
-                <div class="card-body">
-                    <h5 class="card-title text-dark fw-bold">USPTO Provisional Patent (Filed 2026)</h5>
-                    <h6 class="card-subtitle mb-2 text-primary">"Neuro-Symbolic Architecture for Deterministic Execution in Autonomous Agents"</h6>
-                    <p class="card-text small">Lead inventor of the core "Sober Guardrail" engine. This application covers the proprietary method of bridging probabilistic LLM planning with deterministic theorem provers (e.g., Z3) to verify actions in a "Shadow World" simulation prior to execution.</p>
-                </div>
+        <div class="section">
+            <h2>💡 Intellectual Property & Research</h2>
+            
+            <div class="card parchment" style="margin-bottom: 20px;">
+                <div class="card-title" style="color: #1a1a1a;">USPTO Provisional Patent (Filed 2026)</div>
+                <div class="card-sub" style="color: #B8860B;">Neuro-Symbolic Architecture for Deterministic AI</div>
+                <p class="card-text">Proprietary method of bridging probabilistic LLM planning with deterministic theorem provers to verify actions in a "Shadow World" simulation.</p>
             </div>
 
-            <div class="card shadow-sm mb-4">
-                <div class="card-body">
-                    <h5 class="card-title text-dark fw-bold">US Patent 12,037,144 B1</h5>
-                    <h6 class="card-subtitle mb-2 text-primary">"Space Railway"</h6>
-                    <p class="card-text small">Lead author of an advanced vertical magnetic levitation system utilizing graphene monorail technology. A testament to architecting complex, formal, and rigorously tested physical systems.</p>
-                </div>
+            <div class="card" style="margin-bottom: 20px;">
+                <div class="card-title">US Patent 12,037,144 B1</div>
+                <div class="card-sub">"Space Railway"</div>
+                <p class="card-text">Advanced vertical magnetic levitation system utilizing graphene monorail technology.</p>
             </div>
 
-            <div class="card shadow-sm">
-                <div class="card-body">
-                    <h5 class="card-title text-dark fw-bold">Relativity Publications</h5>
-                    <h6 class="card-subtitle mb-2 text-primary">Author & Publisher</h6>
-                    <p class="card-text small">Home of the <em>"Railway Into Space Saga"</em> and the <em>"Vortex Series."</em> High-concept science fiction and industry analysis built on rigorous physical and logical principles.</p>
-                </div>
+            <div class="card">
+                <div class="card-title">Relativity Publications</div>
+                <div class="card-sub">Author & Publisher</div>
+                <p class="card-text">Home of the "Railway Into Space Saga" and the "Vortex Series." High-concept science fiction built on rigorous logic.</p>
             </div>
         </div>
 
-    </div> <footer>
-        <p>&copy; 2026 Kenneth Wayne Douglas. Built with Professional Rigor and GitHub Pages.</p>
+    </div>
+
+    <footer>
+        &copy; 2026 Kenneth Wayne Douglas. Built with Professional Rigor.
     </footer>
 
 </body>
