@@ -1,11 +1,12 @@
-<div class="section">
-        <h2>💬 Client Testimonials</h2>
-        <div style="font-style: italic; border-left: 4px solid #0056b3; padding-left: 15px; margin-bottom: 20px;">
-            <p>"The Lead Qualifier Kenneth built has completely changed how I handle my mornings. I only talk to serious clients now. It's like having a digital gatekeeper."</p>
-            <p><strong>— Small Business Owner, Real Estate Sector</strong></p>
-        </div>
-        <div style="font-style: italic; border-left: 4px solid #0056b3; padding-left: 15px;">
-            <p>"The Data Scrubber tool saved us days of manual entry. Our CRM has never been this clean or useful."</p>
-            <p><strong>— Operations Manager, Publishing Services</strong></p>
-        </div>
-    </div>
+# Kenneth Wayne Douglas | Founder Portfolio
+
+This repository hosts the source code for my professional profile and portfolio: [kwdoug63.github.io](https://kwdoug63.github.io).
+
+## Current Focus
+Founder & CEO at **Sober Agentic Infrastructure, Inc.** We are building the deterministic safety layer for the Agentic Era, moving autonomous systems from probabilistic guessing to verifiable execution.
+
+* **Corporate Site:** [soberagents.ai](https://soberagents.ai)
+* **Infrastructure MVP Repo:** [Sober-Agentic-Infrastructure-v1](https://github.com/kwdoug63/Sober-Agentic-Infrastructure-v1)
+
+## Legacy Architecture Validations
+The `/Case-Studies` directory contains early architectural validations. Architecting these initial probabilistic automation systems across various sectors exposed the critical "Liability Gap" in LLM-driven actions, directly leading to the founding of Sober Agentic Infrastructure.
